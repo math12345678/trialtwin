@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  color: #0d0d0d;
+  font-family: "DM Sans", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  border-color: #e8e8e8;
+}
+
+::selection {
+  background-color: #1a56db;
+  color: #ffffff;
+}
+
+/* Custom thin scrollbar to match the editorial aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f7f6f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #ababab;
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6b6b6b;
+}
+
+/* Hairline divider helper */
+.hairline {
+  border-top: 1px solid #e8e8e8;
+}
+
+/* Tight-tracking display heading */
+.display-h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: clamp(40px, 5.2vw, 60px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.display-h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: clamp(28px, 3.4vw, 40px);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+
+.label-eyebrow {
+  font-family: "DM Mono", "Courier New", monospace;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.mono-num {
+  font-family: "DM Mono", "Courier New", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Blinking cursor for terminal panels */
+.terminal-cursor::after {
+  content: "▌";
+  display: inline-block;
+  margin-left: 4px;
+  animation: tt-blink 1s steps(1) infinite;
+  color: #6aa6ff;
+}
+@keyframes tt-blink {
+  50% { opacity: 0; }
+}
+
+/* Subtle focus ring used in form fields */
+.tt-input {
+  border: 1px solid #e8e8e8;
+  background: #ffffff;
+  padding: 10px 12px;
+  font-family: "DM Sans", system-ui, sans-serif;
+  font-size: 14px;
+  color: #0d0d0d;
+  width: 100%;
+  border-radius: 4px;
+  transition: border-color 120ms ease;
+}
+.tt-input:focus {
+  outline: none;
+  border-color: #1a56db;
+  box-shadow: 0 0 0 1px #1a56db;
+}
+
+.tt-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  padding: 10px 18px;
+  font-family: "DM Mono", "Courier New", monospace;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: background 100ms ease, color 100ms ease, border-color 100ms ease;
+  cursor: pointer;
+  border: 1px solid #0d0d0d;
+}
+.tt-btn-primary {
+  background: #0d0d0d;
+  color: #ffffff;
+}
+.tt-btn-primary:hover {
+  background: #1a56db;
+  border-color: #1a56db;
+}
+.tt-btn-secondary {
+  background: #ffffff;
+  color: #0d0d0d;
+}
+.tt-btn-secondary:hover {
+  background: #f7f6f4;
+}
+.tt-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.tt-card {
+  border: 1px solid #e8e8e8;
+  background: #ffffff;
+  padding: 24px;
+}
+
+.tt-card-alt {
+  border: 1px solid #e8e8e8;
+  background: #f7f6f4;
+  padding: 24px;
+}
+
+/* Terminal panel */
+.terminal {
+  font-family: "DM Mono", "Courier New", monospace;
+  font-size: 12px;
+  line-height: 1.55;
+  background: #0d0d0d;
+  color: #f7f6f4;
+  border-radius: 4px;
+  padding: 20px;
+  overflow-x: auto;
+  white-space: pre;
+}
+.terminal .accent {
+  color: #6aa6ff;
+}
+.terminal .ok {
+  color: #6ad48b;
+}
+.terminal .warn {
+  color: #f4b73b;
+}
+.terminal .risk {
+  color: #ff7066;
+}
+.terminal .dim {
+  color: #6b6b6b;
+}
