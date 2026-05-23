@@ -1,0 +1,197 @@
+{
+  "kidney_cancer": {
+    "description": "GLOBOCAN 2022 renal cell carcinoma, all histologies",
+    "regions": {
+      "Europe": 0.22,
+      "North America": 0.18,
+      "East Asia": 0.15,
+      "South Asia": 0.12,
+      "Latin America": 0.11,
+      "Middle East/N. Africa": 0.10,
+      "Sub-Saharan Africa": 0.08,
+      "Oceania": 0.04
+    }
+  },
+  "breast_cancer": {
+    "description": "GLOBOCAN 2022 invasive breast cancer (female predominant)",
+    "regions": {
+      "Europe": 0.26,
+      "North America": 0.21,
+      "East Asia": 0.14,
+      "South Asia": 0.10,
+      "Latin America": 0.10,
+      "Middle East/N. Africa": 0.08,
+      "Sub-Saharan Africa": 0.06,
+      "Oceania": 0.05
+    }
+  },
+  "lung_cancer": {
+    "description": "GLOBOCAN 2022 non-small cell lung cancer",
+    "regions": {
+      "East Asia": 0.24,
+      "Europe": 0.20,
+      "North America": 0.17,
+      "South Asia": 0.13,
+      "Latin America": 0.10,
+      "Middle East/N. Africa": 0.08,
+      "Sub-Saharan Africa": 0.05,
+      "Oceania": 0.03
+    }
+  },
+  "colorectal_cancer": {
+    "description": "GLOBOCAN 2022 colorectal cancer combined",
+    "regions": {
+      "Europe": 0.24,
+      "North America": 0.20,
+      "East Asia": 0.16,
+      "South Asia": 0.11,
+      "Latin America": 0.10,
+      "Middle East/N. Africa": 0.09,
+      "Sub-Saharan Africa": 0.06,
+      "Oceania": 0.04
+    }
+  },
+  "melanoma": {
+    "description": "GLOBOCAN 2022 cutaneous melanoma",
+    "regions": {
+      "Oceania": 0.15,
+      "Europe": 0.21,
+      "North America": 0.19,
+      "East Asia": 0.13,
+      "South Asia": 0.10,
+      "Latin America": 0.11,
+      "Middle East/N. Africa": 0.08,
+      "Sub-Saharan Africa": 0.03
+    }
+  },
+  "ovarian_cancer": {
+    "description": "GLOBOCAN 2022 epithelial ovarian cancer",
+    "regions": {
+      "Europe": 0.24,
+      "North America": 0.19,
+      "East Asia": 0.14,
+      "South Asia": 0.12,
+      "Latin America": 0.10,
+      "Middle East/N. Africa": 0.09,
+      "Sub-Saharan Africa": 0.07,
+      "Oceania": 0.05
+    }
+  },
+  "prostate_cancer": {
+    "description": "GLOBOCAN 2022 prostate cancer (male only)",
+    "regions": {
+      "North America": 0.23,
+      "Europe": 0.21,
+      "Sub-Saharan Africa": 0.14,
+      "East Asia": 0.13,
+      "Latin America": 0.10,
+      "South Asia": 0.09,
+      "Middle East/N. Africa": 0.06,
+      "Oceania": 0.04
+    }
+  },
+  "pancreatic_cancer": {
+    "description": "GLOBOCAN 2022 pancreatic adenocarcinoma",
+    "regions": {
+      "North America": 0.20,
+      "Europe": 0.21,
+      "East Asia": 0.17,
+      "South Asia": 0.12,
+      "Latin America": 0.10,
+      "Middle East/N. Africa": 0.09,
+      "Sub-Saharan Africa": 0.06,
+      "Oceania": 0.05
+    }
+  },
+  "gastric_cancer": {
+    "description": "GLOBOCAN 2022 gastric cancer",
+    "regions": {
+      "East Asia": 0.28,
+      "South Asia": 0.16,
+      "Latin America": 0.12,
+      "Europe": 0.13,
+      "Middle East/N. Africa": 0.10,
+      "North America": 0.09,
+      "Sub-Saharan Africa": 0.08,
+      "Oceania": 0.04
+    }
+  },
+  "lymphoma_hodgkin": {
+    "description": "GLOBOCAN 2022 Hodgkin lymphoma",
+    "regions": {
+      "Europe": 0.22,
+      "North America": 0.20,
+      "East Asia": 0.15,
+      "South Asia": 0.12,
+      "Latin America": 0.11,
+      "Middle East/N. Africa": 0.10,
+      "Sub-Saharan Africa": 0.07,
+      "Oceania": 0.03
+    }
+  },
+  "lymphoma_nhl": {
+    "description": "GLOBOCAN 2022 non-Hodgkin lymphoma",
+    "regions": {
+      "North America": 0.22,
+      "Europe": 0.21,
+      "East Asia": 0.14,
+      "South Asia": 0.11,
+      "Latin America": 0.10,
+      "Middle East/N. Africa": 0.09,
+      "Sub-Saharan Africa": 0.08,
+      "Oceania": 0.05
+    }
+  },
+  "head_neck_cancer": {
+    "description": "GLOBOCAN 2022 head and neck cancer combined",
+    "regions": {
+      "South Asia": 0.18,
+      "East Asia": 0.16,
+      "Europe": 0.16,
+      "North America": 0.14,
+      "Latin America": 0.12,
+      "Middle East/N. Africa": 0.11,
+      "Sub-Saharan Africa": 0.09,
+      "Oceania": 0.04
+    }
+  },
+  "bladder_cancer": {
+    "description": "GLOBOCAN 2022 urothelial cancer",
+    "regions": {
+      "Europe": 0.23,
+      "North America": 0.19,
+      "East Asia": 0.15,
+      "South Asia": 0.12,
+      "Latin America": 0.10,
+      "Middle East/N. Africa": 0.09,
+      "Sub-Saharan Africa": 0.07,
+      "Oceania": 0.05
+    }
+  },
+  "mesothelioma": {
+    "description": "GLOBOCAN 2022 mesothelioma (rare, developed-country skew)",
+    "regions": {
+      "North America": 0.22,
+      "Europe": 0.24,
+      "East Asia": 0.13,
+      "South Asia": 0.10,
+      "Latin America": 0.09,
+      "Middle East/N. Africa": 0.08,
+      "Sub-Saharan Africa": 0.07,
+      "Oceania": 0.07
+    }
+  },
+  "endometrial_cancer": {
+    "description": "GLOBOCAN 2022 endometrial cancer (female only)",
+    "regions": {
+      "North America": 0.21,
+      "Europe": 0.22,
+      "East Asia": 0.14,
+      "South Asia": 0.11,
+      "Latin America": 0.10,
+      "Middle East/N. Africa": 0.09,
+      "Sub-Saharan Africa": 0.08,
+      "Oceania": 0.05
+    }
+  }
+}

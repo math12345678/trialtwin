@@ -1,0 +1,122 @@
+[
+  {
+    "id": "kidney_cancer",
+    "label": "Renal Cell Carcinoma",
+    "icd10": "C64.9",
+    "description": "Kidney cancer, clear cell and non-clear cell types",
+    "audit_calibrated": true,
+    "notes": "98 NCCN-cited RCC studies (MIT Critical Data audit)"
+  },
+  {
+    "id": "breast_cancer",
+    "label": "Breast Cancer",
+    "icd10": "C50.9",
+    "description": "Invasive breast cancer, all subtypes",
+    "audit_calibrated": true,
+    "notes": "45 randomized breast cancer trials, NSABP + EORTC meta-analysis"
+  },
+  {
+    "id": "lung_cancer",
+    "label": "Non-Small Cell Lung Cancer",
+    "icd10": "C34.9",
+    "description": "NSCLC, squamous and adenocarcinoma",
+    "audit_calibrated": true,
+    "notes": "52 ASCO-indexed lung cancer phase III trials"
+  },
+  {
+    "id": "colorectal_cancer",
+    "label": "Colorectal Cancer",
+    "icd10": "C18.9",
+    "description": "Colon and rectal cancer, all stages",
+    "audit_calibrated": true,
+    "notes": "38 ECOG and RTOG colorectal trials"
+  },
+  {
+    "id": "melanoma",
+    "label": "Cutaneous Melanoma",
+    "icd10": "C43.9",
+    "description": "Stage III–IV melanoma, BRAF and non-BRAF",
+    "audit_calibrated": true,
+    "notes": "31 KEYNOTE and CheckMate immunotherapy trials"
+  },
+  {
+    "id": "ovarian_cancer",
+    "label": "Epithelial Ovarian Cancer",
+    "icd10": "C56.9",
+    "description": "High-grade serous, endometrioid, clear cell",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors based on GOG and GCIG trials"
+  },
+  {
+    "id": "prostate_cancer",
+    "label": "Metastatic Prostate Cancer",
+    "icd10": "C61.9",
+    "description": "mCRPC and hormone-sensitive disease",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors, ASCO hormone therapy meta-analysis"
+  },
+  {
+    "id": "pancreatic_cancer",
+    "label": "Metastatic Pancreatic Cancer",
+    "icd10": "C25.9",
+    "description": "Adenocarcinoma, chemotherapy-eligible",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors, limited enrollment heterogeneity data"
+  },
+  {
+    "id": "gastric_cancer",
+    "label": "Gastric Cancer",
+    "icd10": "C16.9",
+    "description": "Adenocarcinoma, HER2 and MSI subtypes",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors, GLOBOCAN 2022 incidence, European registry"
+  },
+  {
+    "id": "lymphoma_hodgkin",
+    "label": "Hodgkin Lymphoma",
+    "icd10": "C81.9",
+    "description": "Classical and nodular lymphocyte-predominant",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors, GHSG and EORTC pediatric focus"
+  },
+  {
+    "id": "lymphoma_nhl",
+    "label": "Non-Hodgkin Lymphoma",
+    "icd10": "C82.9",
+    "description": "Follicular, DLBCL, and mantle cell lymphoma",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors, NCCN-indexed trials"
+  },
+  {
+    "id": "head_neck_cancer",
+    "label": "Head and Neck Cancer",
+    "icd10": "C32.9",
+    "description": "Oropharyngeal, hypopharyngeal, laryngeal",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors, HPV+ and HPV- subgroups"
+  },
+  {
+    "id": "bladder_cancer",
+    "label": "Urothelial Cancer",
+    "icd10": "C67.9",
+    "description": "Muscle-invasive and advanced bladder cancer",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors, limited global enrollment data"
+  },
+  {
+    "id": "mesothelioma",
+    "label": "Mesothelioma",
+    "icd10": "C45.9",
+    "description": "Pleural mesothelioma, chemotherapy-eligible",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors, ASCO extrapolation, rare disease"
+  },
+  {
+    "id": "endometrial_cancer",
+    "label": "Endometrial Cancer",
+    "icd10": "C54.1",
+    "description": "Endometrioid and serous subtypes",
+    "audit_calibrated": false,
+    "notes": "Demonstration priors, PORTEC and GOG trials"
+  }
+]

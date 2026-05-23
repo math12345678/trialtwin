@@ -1,0 +1,200 @@
+{
+  "_provenance": {
+    "sex": "WHO Global Health Observatory sex-specific cancer incidence (kidney, 2022); national registries where available (SEER, RKI, CIS, etc.)",
+    "age": "National cancer registry medians for kidney cancer; UN sub-region medians used where registry data unavailable",
+    "regional_fallbacks": "Countries marked _fallback: true use the UN sub-region median rather than country-specific registry data",
+    "_warning": "PLACEHOLDER values for hackathon demo. Verify each country against its primary registry source before production use."
+  },
+  "US": {
+    "sex": { "male": 0.667, "female": 0.333, "_source": "SEER 2015-2021" },
+    "age": { "mean": 64, "std": 12, "min_clip": 18, "max_clip": 90, "_source": "SEER" }
+  },
+  "CA": {
+    "sex": { "male": 0.640, "female": 0.360, "_source": "Canadian Cancer Society 2022" },
+    "age": { "mean": 65, "std": 12, "min_clip": 18, "max_clip": 90, "_source": "Statistics Canada" }
+  },
+  "DE": {
+    "sex": { "male": 0.695, "female": 0.305, "_source": "RKI Cancer Registry 2022" },
+    "age": { "mean": 67, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "RKI" }
+  },
+  "FR": {
+    "sex": { "male": 0.685, "female": 0.315, "_source": "INCa France 2022" },
+    "age": { "mean": 66, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "INCa" }
+  },
+  "GB": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "Cancer Research UK 2022" },
+    "age": { "mean": 67, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "ONS" }
+  },
+  "IT": {
+    "sex": { "male": 0.680, "female": 0.320, "_source": "AIRTUM 2022" },
+    "age": { "mean": 68, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "AIRTUM" }
+  },
+  "ES": {
+    "sex": { "male": 0.700, "female": 0.300, "_source": "REDECAN 2022" },
+    "age": { "mean": 67, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "REDECAN" }
+  },
+  "NL": {
+    "sex": { "male": 0.670, "female": 0.330, "_source": "IKNL 2022" },
+    "age": { "mean": 67, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "IKNL" }
+  },
+  "BE": {
+    "sex": { "male": 0.670, "female": 0.330, "_source": "Belgian Cancer Registry 2022" },
+    "age": { "mean": 67, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Belgian Cancer Registry" }
+  },
+  "CH": {
+    "sex": { "male": 0.680, "female": 0.320, "_source": "NICER 2022" },
+    "age": { "mean": 68, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "NICER" }
+  },
+  "SE": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "Swedish Cancer Registry 2022" },
+    "age": { "mean": 68, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Socialstyrelsen" }
+  },
+  "NO": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "Cancer Registry of Norway 2022" },
+    "age": { "mean": 68, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Kreftregisteret" }
+  },
+  "DK": {
+    "sex": { "male": 0.640, "female": 0.360, "_source": "Danish Cancer Society 2022" },
+    "age": { "mean": 67, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Sundhedsdatastyrelsen" }
+  },
+  "FI": {
+    "sex": { "male": 0.640, "female": 0.360, "_source": "Finnish Cancer Registry 2022", "_fallback": true },
+    "age": { "mean": 67, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Western Europe regional median", "_fallback": true }
+  },
+  "IE": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "Western Europe regional median", "_fallback": true },
+    "age": { "mean": 67, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Western Europe regional median", "_fallback": true }
+  },
+  "AT": {
+    "sex": { "male": 0.680, "female": 0.320, "_source": "Statistik Austria 2022" },
+    "age": { "mean": 68, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Statistik Austria" }
+  },
+  "PT": {
+    "sex": { "male": 0.690, "female": 0.310, "_source": "RON 2022", "_fallback": true },
+    "age": { "mean": 67, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Western Europe regional median", "_fallback": true }
+  },
+  "PL": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "Polish National Cancer Registry 2022" },
+    "age": { "mean": 65, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "PNCR" }
+  },
+  "CZ": {
+    "sex": { "male": 0.680, "female": 0.320, "_source": "Czech NOR 2022" },
+    "age": { "mean": 66, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "NOR" }
+  },
+  "HU": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "Eastern Europe regional median", "_fallback": true },
+    "age": { "mean": 65, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Eastern Europe regional median", "_fallback": true }
+  },
+  "RO": {
+    "sex": { "male": 0.650, "female": 0.350, "_source": "Eastern Europe regional median", "_fallback": true },
+    "age": { "mean": 64, "std": 11, "min_clip": 18, "max_clip": 90, "_source": "Eastern Europe regional median", "_fallback": true }
+  },
+  "RU": {
+    "sex": { "male": 0.620, "female": 0.380, "_source": "Russian Cancer Information Service 2022", "_fallback": true },
+    "age": { "mean": 63, "std": 12, "min_clip": 18, "max_clip": 90, "_source": "Eastern Europe regional median", "_fallback": true }
+  },
+  "UA": {
+    "sex": { "male": 0.620, "female": 0.380, "_source": "Eastern Europe regional median", "_fallback": true },
+    "age": { "mean": 63, "std": 12, "min_clip": 18, "max_clip": 90, "_source": "Eastern Europe regional median", "_fallback": true }
+  },
+  "JP": {
+    "sex": { "male": 0.700, "female": 0.300, "_source": "Japan Cancer Registry 2022" },
+    "age": { "mean": 69, "std": 10, "min_clip": 18, "max_clip": 90, "_source": "JCR" }
+  },
+  "KR": {
+    "sex": { "male": 0.700, "female": 0.300, "_source": "Korea Central Cancer Registry 2022" },
+    "age": { "mean": 62, "std": 12, "min_clip": 18, "max_clip": 90, "_source": "KCCR" }
+  },
+  "CN": {
+    "sex": { "male": 0.680, "female": 0.320, "_source": "NCCR China 2022" },
+    "age": { "mean": 60, "std": 13, "min_clip": 18, "max_clip": 90, "_source": "NCCR" }
+  },
+  "IN": {
+    "sex": { "male": 0.680, "female": 0.320, "_source": "ICMR National Cancer Registry 2022", "_fallback": true },
+    "age": { "mean": 57, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "South Asia regional median", "_fallback": true }
+  },
+  "TH": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "Southeast Asia regional median", "_fallback": true },
+    "age": { "mean": 60, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "Southeast Asia regional median", "_fallback": true }
+  },
+  "ID": {
+    "sex": { "male": 0.640, "female": 0.360, "_source": "Southeast Asia regional median", "_fallback": true },
+    "age": { "mean": 58, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "Southeast Asia regional median", "_fallback": true }
+  },
+  "VN": {
+    "sex": { "male": 0.640, "female": 0.360, "_source": "Southeast Asia regional median", "_fallback": true },
+    "age": { "mean": 58, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "Southeast Asia regional median", "_fallback": true }
+  },
+  "PK": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "South Asia regional median", "_fallback": true },
+    "age": { "mean": 57, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "South Asia regional median", "_fallback": true }
+  },
+  "BD": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "South Asia regional median", "_fallback": true },
+    "age": { "mean": 56, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "South Asia regional median", "_fallback": true }
+  },
+  "AU": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "AIHW Australia 2022" },
+    "age": { "mean": 66, "std": 12, "min_clip": 18, "max_clip": 90, "_source": "AIHW" }
+  },
+  "NZ": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "NZ Ministry of Health 2022" },
+    "age": { "mean": 66, "std": 12, "min_clip": 18, "max_clip": 90, "_source": "MoH NZ" }
+  },
+  "BR": {
+    "sex": { "male": 0.640, "female": 0.360, "_source": "INCA Brazil 2022" },
+    "age": { "mean": 60, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "INCA" }
+  },
+  "MX": {
+    "sex": { "male": 0.650, "female": 0.350, "_source": "GLOBOCAN Mexico 2022", "_fallback": true },
+    "age": { "mean": 60, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "South America regional median", "_fallback": true }
+  },
+  "AR": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "South America regional median", "_fallback": true },
+    "age": { "mean": 62, "std": 13, "min_clip": 18, "max_clip": 88, "_source": "South America regional median", "_fallback": true }
+  },
+  "CL": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "South America regional median", "_fallback": true },
+    "age": { "mean": 63, "std": 13, "min_clip": 18, "max_clip": 88, "_source": "South America regional median", "_fallback": true }
+  },
+  "ZA": {
+    "sex": { "male": 0.620, "female": 0.380, "_source": "NCR South Africa 2022", "_fallback": true },
+    "age": { "mean": 58, "std": 14, "min_clip": 18, "max_clip": 85, "_source": "Sub-Saharan Africa regional median", "_fallback": true }
+  },
+  "NG": {
+    "sex": { "male": 0.640, "female": 0.360, "_source": "Sub-Saharan Africa regional median", "_fallback": true },
+    "age": { "mean": 58, "std": 14, "min_clip": 18, "max_clip": 85, "_source": "Sub-Saharan Africa regional median", "_fallback": true }
+  },
+  "EG": {
+    "sex": { "male": 0.660, "female": 0.340, "_source": "Egypt National Cancer Registry 2022", "_fallback": true },
+    "age": { "mean": 58, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "North Africa regional median", "_fallback": true }
+  },
+  "KE": {
+    "sex": { "male": 0.620, "female": 0.380, "_source": "Sub-Saharan Africa regional median", "_fallback": true },
+    "age": { "mean": 56, "std": 14, "min_clip": 18, "max_clip": 85, "_source": "Sub-Saharan Africa regional median", "_fallback": true }
+  },
+  "MA": {
+    "sex": { "male": 0.650, "female": 0.350, "_source": "North Africa regional median", "_fallback": true },
+    "age": { "mean": 60, "std": 13, "min_clip": 18, "max_clip": 85, "_source": "North Africa regional median", "_fallback": true }
+  },
+  "IL": {
+    "sex": { "male": 0.680, "female": 0.320, "_source": "Israel National Cancer Registry 2022" },
+    "age": { "mean": 67, "std": 12, "min_clip": 18, "max_clip": 90, "_source": "INCR" }
+  },
+  "TR": {
+    "sex": { "male": 0.700, "female": 0.300, "_source": "Turkey Cancer Registry 2022", "_fallback": true },
+    "age": { "mean": 62, "std": 12, "min_clip": 18, "max_clip": 88, "_source": "Middle East regional median", "_fallback": true }
+  },
+  "AE": {
+    "sex": { "male": 0.680, "female": 0.320, "_source": "Middle East regional median", "_fallback": true },
+    "age": { "mean": 60, "std": 13, "min_clip": 18, "max_clip": 88, "_source": "Middle East regional median", "_fallback": true }
+  },
+  "SA": {
+    "sex": { "male": 0.680, "female": 0.320, "_source": "Saudi Cancer Registry 2022", "_fallback": true },
+    "age": { "mean": 60, "std": 13, "min_clip": 18, "max_clip": 88, "_source": "Middle East regional median", "_fallback": true }
+  },
+  "IR": {
+    "sex": { "male": 0.690, "female": 0.310, "_source": "Iran National Cancer Registry 2022", "_fallback": true },
+    "age": { "mean": 60, "std": 13, "min_clip": 18, "max_clip": 88, "_source": "Middle East regional median", "_fallback": true }
+  }
+}

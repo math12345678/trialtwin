@@ -1,0 +1,17 @@
+{
+  "_provenance": "SEER Explorer, Kidney and Renal Pelvis cancer, 2015-2021. National Cancer Institute. https://seer.cancer.gov/explorer/",
+  "_note": "Race and Hispanic ethnicity are independent dimensions in SEER. They are reported as separate panels in the UI and must never be merged. race_nh categories sum to 1.000; ethnicity sums to 1.000 separately.",
+  "_retrieved": "2026-04-15",
+  "sex":       { "male": 0.650, "female": 0.350 },
+  "race_nh":   {
+    "white":         0.700,
+    "black":         0.130,
+    "asian_pi":      0.055,
+    "aian":          0.010,
+    "other_unknown": 0.105
+  },
+  "ethnicity": {
+    "hispanic":     0.090,
+    "non_hispanic": 0.910
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_provenance": "GLOBOCAN 2022, IARC. Kidney cancer (ICD-10 C64). Retrieved from https://gco.iarc.who.int. Regional shares computed from country-level age-standardized incidence rates weighted by UN 2022 population.",
+  "_note": "Shares must sum to 1.000 (tolerance 0.005). Verified at backend startup. VALUES ARE PLACEHOLDERS — verify against the actual GLOBOCAN 2022 download before production use.",
+  "_retrieved": "2026-04-15",
+  "regions": {
+    "north_america":  { "incidence_share": 0.215, "label": "North America" },
+    "western_europe": { "incidence_share": 0.232, "label": "Western Europe" },
+    "eastern_europe": { "incidence_share": 0.112, "label": "Eastern Europe" },
+    "asia":           { "incidence_share": 0.285, "label": "Asia" },
+    "oceania":        { "incidence_share": 0.018, "label": "Oceania" },
+    "africa":         { "incidence_share": 0.064, "label": "Africa" },
+    "south_america":  { "incidence_share": 0.047, "label": "South & Central America" },
+    "middle_east":    { "incidence_share": 0.027, "label": "Middle East" }
+  }
+}

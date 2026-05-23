@@ -1,0 +1,320 @@
+{
+  "_provenance": "Disease-specific regional incidence/prevalence baselines for the TrialTwin simulator. Each disease's regional shares sum to 1.000 (asserted at startup).",
+  "_audits": {
+    "kidney_cancer": "Reddy, Kang, Celi et al. Scientometric audit of NCCN Kidney Cancer Guidelines v3.2022. 98 studies, 44,636 participants.",
+    "hypertension":  "Kang, Maldisa, Reddy, Celi et al. Scientometric audit of the 2025 AHA/ACC Hypertension Guideline. 348 studies, 180,635,290 participants."
+  },
+  "_baseline_sources": {
+    "cancers": "GLOBOCAN 2022 (IARC) regional incidence shares, weighted by UN 2022 population. Placeholder values for demonstration; verify against the IARC source before production use.",
+    "type_2_diabetes": "IDF Diabetes Atlas 10th edition (2021), adults 20-79.",
+    "hypertension": "WHO Global Health Observatory hypertension burden (1.4B adults aged 30-79).",
+    "hiv": "UNAIDS 2023 Global AIDS Update — people living with HIV by region.",
+    "tuberculosis": "WHO Global TB Report 2023 — incident TB cases by region."
+  },
+  "_note": "Only kidney_cancer and hypertension are audit-calibrated. The remaining diseases use published regional burden baselines but do NOT have a corresponding scientometric audit of the cited evidence base.",
+  "_retrieved": "2026-04-15",
+  "diseases": {
+    "kidney_cancer": {
+      "label": "Kidney Cancer (RCC)",
+      "icd10": "C64",
+      "audit_calibrated": true,
+      "audit_source": "NCCN Kidney Cancer Guidelines v3.2022 audit (98 studies)",
+      "regions": {
+        "north_america":  { "incidence_share": 0.215, "label": "North America" },
+        "western_europe": { "incidence_share": 0.232, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.112, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.285, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.018, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.064, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.047, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.027, "label": "Middle East" }
+      }
+    },
+    "hypertension": {
+      "label": "Hypertension",
+      "icd10": "I10-I15",
+      "audit_calibrated": true,
+      "audit_source": "2025 AHA/ACC Hypertension Guideline audit (348 studies, 180.6M participants)",
+      "regions": {
+        "north_america":  { "incidence_share": 0.080, "label": "North America" },
+        "western_europe": { "incidence_share": 0.110, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.060, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.500, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.010, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.120, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.080, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.040, "label": "Middle East" }
+      }
+    },
+    "breast_cancer": {
+      "label": "Breast Cancer",
+      "icd10": "C50",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.130, "label": "North America" },
+        "western_europe": { "incidence_share": 0.195, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.085, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.380, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.018, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.080, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.080, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.032, "label": "Middle East" }
+      }
+    },
+    "prostate_cancer": {
+      "label": "Prostate Cancer",
+      "icd10": "C61",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.200, "label": "North America" },
+        "western_europe": { "incidence_share": 0.225, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.075, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.225, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.025, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.130, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.080, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.040, "label": "Middle East" }
+      }
+    },
+    "lung_cancer": {
+      "label": "Lung Cancer",
+      "icd10": "C33-C34",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.105, "label": "North America" },
+        "western_europe": { "incidence_share": 0.135, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.090, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.500, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.010, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.035, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.070, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.055, "label": "Middle East" }
+      }
+    },
+    "colorectal_cancer": {
+      "label": "Colorectal Cancer",
+      "icd10": "C18-C21",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.130, "label": "North America" },
+        "western_europe": { "incidence_share": 0.205, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.110, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.405, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.018, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.052, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.060, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.020, "label": "Middle East" }
+      }
+    },
+    "liver_cancer": {
+      "label": "Liver Cancer (HCC)",
+      "icd10": "C22",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.040, "label": "North America" },
+        "western_europe": { "incidence_share": 0.060, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.030, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.730, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.005, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.090, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.025, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.020, "label": "Middle East" }
+      }
+    },
+    "stomach_cancer": {
+      "label": "Stomach Cancer",
+      "icd10": "C16",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.040, "label": "North America" },
+        "western_europe": { "incidence_share": 0.080, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.080, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.640, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.005, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.045, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.080, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.030, "label": "Middle East" }
+      }
+    },
+    "cervical_cancer": {
+      "label": "Cervical Cancer",
+      "icd10": "C53",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.040, "label": "North America" },
+        "western_europe": { "incidence_share": 0.060, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.040, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.520, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.005, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.205, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.090, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.040, "label": "Middle East" }
+      }
+    },
+    "pancreatic_cancer": {
+      "label": "Pancreatic Cancer",
+      "icd10": "C25",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.155, "label": "North America" },
+        "western_europe": { "incidence_share": 0.215, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.095, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.385, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.020, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.045, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.055, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.030, "label": "Middle East" }
+      }
+    },
+    "bladder_cancer": {
+      "label": "Bladder Cancer",
+      "icd10": "C67",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.155, "label": "North America" },
+        "western_europe": { "incidence_share": 0.245, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.110, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.290, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.020, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.085, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.050, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.045, "label": "Middle East" }
+      }
+    },
+    "thyroid_cancer": {
+      "label": "Thyroid Cancer",
+      "icd10": "C73",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.180, "label": "North America" },
+        "western_europe": { "incidence_share": 0.140, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.060, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.470, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.015, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.020, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.090, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.025, "label": "Middle East" }
+      }
+    },
+    "ovarian_cancer": {
+      "label": "Ovarian Cancer",
+      "icd10": "C56",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.150, "label": "North America" },
+        "western_europe": { "incidence_share": 0.205, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.105, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.360, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.018, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.055, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.075, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.032, "label": "Middle East" }
+      }
+    },
+    "esophageal_cancer": {
+      "label": "Esophageal Cancer",
+      "icd10": "C15",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.040, "label": "North America" },
+        "western_europe": { "incidence_share": 0.075, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.045, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.700, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.008, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.080, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.030, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.022, "label": "Middle East" }
+      }
+    },
+    "leukemia": {
+      "label": "Leukemia (all types)",
+      "icd10": "C91-C95",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.135, "label": "North America" },
+        "western_europe": { "incidence_share": 0.165, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.085, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.460, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.020, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.045, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.060, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.030, "label": "Middle East" }
+      }
+    },
+    "non_hodgkin_lymphoma": {
+      "label": "Non-Hodgkin Lymphoma",
+      "icd10": "C82-C86",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.220, "label": "North America" },
+        "western_europe": { "incidence_share": 0.235, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.085, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.305, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.022, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.045, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.055, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.033, "label": "Middle East" }
+      }
+    },
+    "melanoma": {
+      "label": "Melanoma",
+      "icd10": "C43",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.265, "label": "North America" },
+        "western_europe": { "incidence_share": 0.380, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.080, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.110, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.110, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.015, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.030, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.010, "label": "Middle East" }
+      }
+    },
+    "type_2_diabetes": {
+      "label": "Type 2 Diabetes",
+      "icd10": "E11",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.105, "label": "North America" },
+        "western_europe": { "incidence_share": 0.100, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.050, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.475, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.012, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.085, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.110, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.063, "label": "Middle East" }
+      }
+    },
+    "hiv": {
+      "label": "HIV / AIDS",
+      "icd10": "B20-B24",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.040, "label": "North America" },
+        "western_europe": { "incidence_share": 0.025, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.045, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.135, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.005, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.690, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.045, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.015, "label": "Middle East" }
+      }
+    },
+    "tuberculosis": {
+      "label": "Tuberculosis",
+      "icd10": "A15-A19",
+      "audit_calibrated": false,
+      "regions": {
+        "north_america":  { "incidence_share": 0.012, "label": "North America" },
+        "western_europe": { "incidence_share": 0.020, "label": "Western Europe" },
+        "eastern_europe": { "incidence_share": 0.040, "label": "Eastern Europe" },
+        "asia":           { "incidence_share": 0.560, "label": "Asia" },
+        "oceania":        { "incidence_share": 0.005, "label": "Oceania" },
+        "africa":         { "incidence_share": 0.305, "label": "Africa" },
+        "south_america":  { "incidence_share": 0.035, "label": "South & Central America" },
+        "middle_east":    { "incidence_share": 0.023, "label": "Middle East" }
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "kidney_cancer": {
+    "description": "RCC demographics from 98 NCCN-cited studies",
+    "sex_distribution": {
+      "M": 0.64,
+      "F": 0.36
+    },
+    "age_distribution": {
+      "median": 62,
+      "q25": 55,
+      "q75": 70
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 85]
+  },
+  "breast_cancer": {
+    "description": "Breast cancer, predominantly female",
+    "sex_distribution": {
+      "M": 0.02,
+      "F": 0.98
+    },
+    "age_distribution": {
+      "median": 58,
+      "q25": 48,
+      "q75": 68
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 85]
+  },
+  "lung_cancer": {
+    "description": "NSCLC demographics, slight male predominance historically",
+    "sex_distribution": {
+      "M": 0.58,
+      "F": 0.42
+    },
+    "age_distribution": {
+      "median": 67,
+      "q25": 59,
+      "q75": 75
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 90]
+  },
+  "colorectal_cancer": {
+    "description": "CRC balanced sex distribution",
+    "sex_distribution": {
+      "M": 0.54,
+      "F": 0.46
+    },
+    "age_distribution": {
+      "median": 64,
+      "q25": 55,
+      "q75": 73
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 85]
+  },
+  "melanoma": {
+    "description": "Melanoma, slight male predominance",
+    "sex_distribution": {
+      "M": 0.56,
+      "F": 0.44
+    },
+    "age_distribution": {
+      "median": 60,
+      "q25": 50,
+      "q75": 70
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 85]
+  },
+  "ovarian_cancer": {
+    "description": "Ovarian cancer, female only",
+    "sex_distribution": {
+      "M": 0.0,
+      "F": 1.0
+    },
+    "age_distribution": {
+      "median": 61,
+      "q25": 51,
+      "q75": 71
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 85]
+  },
+  "prostate_cancer": {
+    "description": "Prostate cancer, male only",
+    "sex_distribution": {
+      "M": 1.0,
+      "F": 0.0
+    },
+    "age_distribution": {
+      "median": 72,
+      "q25": 63,
+      "q75": 80
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 90]
+  },
+  "pancreatic_cancer": {
+    "description": "Pancreatic cancer, balanced with slight male predominance",
+    "sex_distribution": {
+      "M": 0.52,
+      "F": 0.48
+    },
+    "age_distribution": {
+      "median": 71,
+      "q25": 62,
+      "q75": 79
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 90]
+  },
+  "gastric_cancer": {
+    "description": "Gastric cancer, male predominant",
+    "sex_distribution": {
+      "M": 0.62,
+      "F": 0.38
+    },
+    "age_distribution": {
+      "median": 68,
+      "q25": 58,
+      "q75": 77
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 85]
+  },
+  "lymphoma_hodgkin": {
+    "description": "Hodgkin lymphoma, bimodal age (young adult + older)",
+    "sex_distribution": {
+      "M": 0.55,
+      "F": 0.45
+    },
+    "age_distribution": {
+      "median": 38,
+      "q25": 20,
+      "q75": 65
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 85]
+  },
+  "lymphoma_nhl": {
+    "description": "NHL, heavily skewed to older adults",
+    "sex_distribution": {
+      "M": 0.56,
+      "F": 0.44
+    },
+    "age_distribution": {
+      "median": 67,
+      "q25": 55,
+      "q75": 77
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 90]
+  },
+  "head_neck_cancer": {
+    "description": "HNC, male predominant",
+    "sex_distribution": {
+      "M": 0.75,
+      "F": 0.25
+    },
+    "age_distribution": {
+      "median": 63,
+      "q25": 53,
+      "q75": 72
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 85]
+  },
+  "bladder_cancer": {
+    "description": "Bladder cancer, male predominant",
+    "sex_distribution": {
+      "M": 0.75,
+      "F": 0.25
+    },
+    "age_distribution": {
+      "median": 73,
+      "q25": 63,
+      "q75": 81
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 90]
+  },
+  "mesothelioma": {
+    "description": "Mesothelioma, predominantly male (occupational exposure)",
+    "sex_distribution": {
+      "M": 0.85,
+      "F": 0.15
+    },
+    "age_distribution": {
+      "median": 75,
+      "q25": 67,
+      "q75": 82
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 90]
+  },
+  "endometrial_cancer": {
+    "description": "Endometrial cancer, female only",
+    "sex_distribution": {
+      "M": 0.0,
+      "F": 1.0
+    },
+    "age_distribution": {
+      "median": 65,
+      "q25": 54,
+      "q75": 75
+    },
+    "default_sex_restriction": null,
+    "default_age_range": [18, 85]
+  }
+}
